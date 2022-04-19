@@ -46,11 +46,10 @@ a:hover {
 
 .fees {
     background-color: #C9B8C8;
-    font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     border-radius: 50%;
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     margin-top: 5rem;
     display: flex;
     justify-content: center;
