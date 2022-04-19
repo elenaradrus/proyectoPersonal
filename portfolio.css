@@ -13,8 +13,16 @@ body{
 }
 
 .banner {
-    height: 25rem;
-    margin-bottom: 5rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Licorice', cursive;
+    font-weight: 100;
+    font-size: 20rem;
 }
 
 .navMenu {

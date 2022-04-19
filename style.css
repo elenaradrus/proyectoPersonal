@@ -14,25 +14,27 @@ body{
 }
 
 .banner {
-    height: 25rem;
-    margin-bottom: 5rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 2rem;
-    margin-right: -8rem;
+h1 {
+    font-family: 'Licorice', cursive;
+    font-weight: 100;
+    font-size: 20rem;
 }
 
 .navMenu {
     display: flex;
-    flex-direction: column;  
-}
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
 
 .link {
     text-decoration: none;
-    font-family: 'Spartan', sans-serif;
     font-weight: 400;
     color: black;
     padding: 4rem;
@@ -42,16 +44,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.casa-andorra {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: .5rem;
-    width: 100rem;
-}
-
 .fees {
     background-color: #C9B8C8;
-    font-family: 'Spartan', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     border-radius: 50%;
