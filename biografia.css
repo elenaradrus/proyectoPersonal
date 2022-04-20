@@ -10,13 +10,7 @@ html{
 body{
     font-size: 16px;
     font-family: 'Spartan', sans-serif;
-}
-
-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: 0;
 }
 
 .banner {
@@ -67,24 +61,27 @@ a:hover {
     border-radius: 50%;
 }
 
-.main {
-    background-color: black;  
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3rem;
 }
 
 .photos {
-    height: 50rem;
+    height: 70rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .landscape {
-    background-color: white;
     object-fit: cover;
-    height: 50rem;
+    height: 60rem;
     width: 40rem;
 }
 
