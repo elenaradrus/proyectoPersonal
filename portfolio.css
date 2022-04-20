@@ -53,25 +53,38 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 2rem;
-    padding: 2rem;
+    margin: 1rem;
 }
 
 .sidebar {
     background-color: #704C52;
-    height: 60rem;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    padding-top: 10rem;
     line-height: 4rem;
-
 }
 
 .content_main {
     background-color: #704C52;
-    height: 60rem;
+}
+
+h2 {
+    background-color: white;
     display: flex;
     justify-content: center;
+}
+
+.images {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: .5rem;
+}
+
+.travel {
+    max-width: 100%;
+    padding-top: .5rem;
 }
 
 footer {
