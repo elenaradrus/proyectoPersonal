@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 4rem;
 }
 
 h1 {
@@ -30,7 +31,8 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 2rem
+    gap: 2rem;
+    background-color: #C9B8C8;
 } 
 
 .link {
@@ -38,9 +40,10 @@ h1 {
     font-family: 'Spartan', sans-serif;
     font-weight: 400;
     color: black;
-    padding: 4rem;
+    padding: 3rem;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #704C52;
 }

@@ -1,0 +1,100 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+h1 {
+    font-family: 'Licorice', cursive;
+    font-weight: 100;
+    font-size: 20rem;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C9B8C8;
+} 
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    padding: 3rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #704C52;
+}
+
+.mainPhoto {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personalPhoto {
+    background-size: cover;
+    object-fit: cover;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+.main {
+    background-color: black;  
+}
+
+.photos {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.landscape {
+    background-color: white;
+    object-fit: cover;
+    height: 50rem;
+    width: 40rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color:#C9B8C8;
+    height: 8rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
