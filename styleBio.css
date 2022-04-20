@@ -51,7 +51,7 @@ a:hover {
 }
 
 .mainPhoto {
-    background-color: blue;
+    background-color: #C9B8C8;
     height: 50rem;
     display: flex;
     justify-content: center;
@@ -65,11 +65,11 @@ a:hover {
 }
 
 .main {
-    background-color: white;  
+    background-color: black;  
 }
 
 .photos {
-    background-color: blue;
+    background-color: #C9B8C8;
     height: 50rem;
     display: flex;
     justify-content: center;
