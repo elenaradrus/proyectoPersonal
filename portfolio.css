@@ -49,7 +49,7 @@ a:hover {
     color: #704C52;
 }
 
-.content {
+.content, .youtube {
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 2rem;
@@ -57,17 +57,13 @@ a:hover {
 }
 
 .sidebar {
-    background-color: #704C52;
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding-top: 10rem;
     line-height: 4rem;
-}
-
-.content_main {
-    background-color: #704C52;
 }
 
 h2 {
@@ -75,16 +71,33 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
 .images {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   column-gap: .5rem;
+   display: flex;
+   justify-content: center;
+   gap: .5rem;
 }
 
-.travel {
-    max-width: 100%;
-    padding-top: .5rem;
+.vertical {
+    height: 50rem;
+    width: 35rem;
+    padding-top: 2rem;
+    object-fit: cover;
+}
+
+.horizontal {
+    height: 35rem;
+    width: 50rem;
+    padding-top: 2rem;
+    object-fit: cover;
+    margin-top: -1.5rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    margin-top: 10rem;
 }
 
 footer {
