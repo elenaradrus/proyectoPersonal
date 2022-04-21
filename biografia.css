@@ -67,6 +67,7 @@ a:hover {
     align-items: center;
     text-align: center;
     line-height: 3rem;
+    margin-top: -4rem;
 }
 
 .photos {
