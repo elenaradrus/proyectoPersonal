@@ -49,65 +49,19 @@ a:hover {
     color: #704C52;
 }
 
-.content, .youtube {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 2rem;
-    margin: 1rem;
-}
-
-.sidebar {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10rem;
-    line-height: 4rem;
-}
-
 h2 {
-    background-color: white;
     display: flex;
     justify-content: center;
     margin-top: 5rem;
-    padding-left: 37rem;
-}
-.images_vertical {
-   display: flex;
-   justify-content: center;
-   gap: .5rem;
+    margin-bottom: 5rem;
 }
 
-.images_horizontal {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    place-items: center;
-    margin-top: 3rem;
-}
-
-.vertical {
-    height: 50rem;
-    width: 35rem;
-    padding-top: 2rem;
-    object-fit: cover;
-}
-
-.horizontal {
-    height: 35rem;
-    width: 50rem;
-    padding-top: 2rem;
-    object-fit: cover;
-    margin-top: -1.5rem;
-}
-
-section aside {
-    height: 100%;
+section p {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 10rem;
-    line-height: 4rem;
+    line-height: 3.5rem;
 }
 
 .video {
