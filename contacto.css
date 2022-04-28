@@ -51,7 +51,7 @@ a:hover {
 
 .formulario {
     background-color: #C9B8C8;
-    width: min( 60rem, 100% );
+    width: min(60rem, 100%);
     margin: 0 auto;
     margin-top: 5rem;
     padding: 2rem;
@@ -87,7 +87,6 @@ a:hover {
 .campo label {
     font-weight: bold;
     margin-bottom: .5rem;
-    display: block;
 }
 
 .campo textarea {
